@@ -1,4 +1,4 @@
-# Hide YouTube Shorts List
+# Ublock Hide Content
 
 A [uBlock Origin](https://github.com/gorhill/uBlock) filter list to hide any content I don't want to see, primarily all traces of YouTube shorts videos.
 
