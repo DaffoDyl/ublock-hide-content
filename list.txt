@@ -1,10 +1,10 @@
-! Title: Hide YouTube Shorts
-! Description: Hide all traces of YouTube shorts videos on YouTube
+! Title: Hide Content
+! Description: Hide any content I don't want to see, primarily Youtube Shorts
 ! Version: 1.9.0
-! Last modified: 2024-02-17 11:55
+! Last modified: 2024-08-20 2:00
 ! Expires: 2 weeks (update frequency)
-! Homepage: https://github.com/gijsdev/ublock-hide-yt-shorts
-! License: https://github.com/gijsdev/ublock-hide-yt-shorts/blob/master/LICENSE.md
+! Homepage: https://github.com/DaffoDyl/ublock-hide-content
+! License: https://github.com/DaffoDyl/ublock-hide-content/blob/master/LICENSE.md
 
 ! Remove empty spaces in grid
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
@@ -70,7 +70,7 @@ m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-at
 ! Hide shorts category on homepage
 m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
 
-!Hide Clip and Thanks button so that Save is no longer missing
+! Hide Clip and Thanks button so that Save is no longer missing
 www.youtube.com###flexible-item-buttons > *:has([aria-label="Clip"])
 www.youtube.com###flexible-item-buttons > *:has([aria-label="Thanks"])
 
