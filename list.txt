@@ -69,3 +69,8 @@ m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-at
 
 ! Hide shorts category on homepage
 m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
+
+!Hide Clip and Thanks button so that Save is no longer missing
+www.youtube.com###flexible-item-buttons > *:has([aria-label="Clip"])
+www.youtube.com###flexible-item-buttons > *:has([aria-label="Thanks"])
+
