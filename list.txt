@@ -74,3 +74,7 @@ m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-t
 www.youtube.com###flexible-item-buttons > *:has([aria-label="Clip"])
 www.youtube.com###flexible-item-buttons > *:has([aria-label="Thanks"])
 
+! Hide lastest posts section on homepage
+www.youtube.com##ytd-rich-section-renderer:has(#title:has-text(/(^| )Latest YouTube posts( |$)/i))
+www.youtube.com##ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Latest YouTube posts( |$)/i))
+
