@@ -78,3 +78,7 @@ www.youtube.com###flexible-item-buttons > *:has([aria-label="Thanks"])
 www.youtube.com##ytd-rich-section-renderer:has(#title:has-text(/(^| )Latest YouTube posts( |$)/i))
 www.youtube.com##ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Latest YouTube posts( |$)/i))
 
+! Hide AI overview on google search
+google.com##.hdzaWe
+
+
